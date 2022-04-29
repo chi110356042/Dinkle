@@ -14,6 +14,10 @@ set α, β=0.1.
 
 Complete model development program.
 
+DataonlyNet is a model that does not contain a RULE.
+
+Net is a model that contain a RULE.
+
 ### model_train_test
 
 The complete prediction process, including data pre-processing, model training, testing and output of scatterplots and confusion matrices. 
