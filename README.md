@@ -20,5 +20,5 @@ Complete model development program.
 
 ### model_train_test
 
-The complete prediction process, including data pre-processing, model training, testing and output of scatterplots and confusion matrices. 
+The complete prediction process, including data pre-processing, model training, testing, and output of scatterplots & confusion matrices. 
 
