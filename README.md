@@ -7,7 +7,7 @@ This project is NCCU cooperation with Dinkle, which used LSTM to predict product
 ### model
 
 Complete model that can be directly loaded for use.
-set α, β=0.1 
+set α, β=0.1.
 
 ### model_code
 
