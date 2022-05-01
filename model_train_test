@@ -996,7 +996,7 @@
         "else:\n",
         "  model = Net(input_dim, output_dim, minmax_rule_encoder, outbound_rule_encoder, data_encoder, hidden_dim=hidden_dim_db, n_layers=n_layers, merge=merge)\n",
         "\n",
-        "print(model)\n",
+        "\n",
         "#optimizer = optim.RMSprop(model.parameters(), lr=0.001,  eps=1e-08, weight_decay=0, momentum=0, centered=False)\n",
         "optimizer = optim.Adam(model.parameters(), lr=0.01)        \n",
         " \n",
@@ -3898,17 +3898,6 @@
         "plt.title('outbound verification')\n",
         "plt.show()"
       ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "#df=pd.read_csv('/content/drive/MyDrive/町洋/Bidi100/0419nonormal!!!.csv')"
-      ],
-      "metadata": {
-        "id": "ZkKLTABei1Gb"
-      },
-      "execution_count": null,
-      "outputs": []
     },
     {
       "cell_type": "code",
