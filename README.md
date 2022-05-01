@@ -18,7 +18,7 @@ Complete model development program.
 
 - Net is a model that contain a RULE
 
-### model_train_test
+### model_train_and_test
 
 The complete prediction process, including data pre-processing, model training, testing, and output of scatterplots & confusion matrices. 
 
