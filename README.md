@@ -33,10 +33,13 @@ The complete prediction process, including data pre-processing, model training, 
 >>    Y_valid: validation label (data_num*rate, output_num)  
 >>    X_test: testing data (data_num*(1-rate), sequence_num, feature_num)  
 >>    Y_test: testing label (data_num*(1-rate), output_num)  
->>>Convert the above data into tensor form to feed the model training      
->>>Create TensorDataset by DataLoader   
+>>>_Convert the above data into tensor form to feed the model training_      
+>>>_Create TensorDataset by DataLoader_   
 
->Output : train_loader & validation_loader & test_loader  
+>Output :
+> - train_loader
+> - validation_loader
+> - test_loader  
 
 **2.Model training**
 >Input : Training data  
