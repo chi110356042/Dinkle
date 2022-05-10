@@ -28,12 +28,11 @@ The complete prediction process, including data pre-processing, model training, 
 
 Data Preprocessing
 
-> Input:
-
-沖壓機&瞬測儀資料
+> Input:沖壓機&瞬測儀資料
 
 >>  **data pre-processing**
 >>  get X_train: training data (data_num*rate, sequence_num, feature_num)
+
 >>      Y_train: training label (data_num*rate, output_num)
 >>      X_valid: validation data (data_num*rate, sequence_num, feature_num)
 >>      Y_valid: validation label (data_num*rate, output_num)
