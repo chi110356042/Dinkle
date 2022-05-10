@@ -10,7 +10,7 @@ Complete model that can be directly loaded for use.
 
 - set α, β = 0.1
 
-`Format one word or one line`
+`pred = model(test_data, alpha=0.1, beta=0.1)`
 
 ### model_code
 
