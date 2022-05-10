@@ -47,7 +47,7 @@ The complete prediction process, including data pre-processing, model training, 
 
 **3.Testing**
 > Input : Testing data  
->> - If you didn't run testing right after training model, then you need to load model  
+>> - If you didn't run testing right after training model, then you need to load model first  
 >> `model_eval=torch.load(model.pt)`  
  
 > Output : 
