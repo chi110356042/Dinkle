@@ -43,7 +43,7 @@ The complete prediction process, including data pre-processing, model training, 
 
 **2.Model training**
 >Input : Training data  
->Output : Model.pt   
+>Output : model.pt   
 
 **3.Testing**
 > Input : Testing data  
