@@ -35,7 +35,8 @@ The complete prediction process, including data pre-processing, model training, 
 >>    Y_test: testing label (data_num*(1-rate), output_num)  
 >>>Convert the above data into tensor form to feed the model training      
 >>>Create TensorDataset by DataLoader   
->Output:train_loader&validation_loader&test_loader  
+
+>Output : train_loader&validation_loader&test_loader  
 
 **2.Model training**
 >Input : Training data  
@@ -44,8 +45,10 @@ The complete prediction process, including data pre-processing, model training, 
 **3.testing**
 > Input : Testing data  
 >> - If you didn't run testing right after training model, then you need to load model  
->> `model_eval=torch.load(model.pt)`   
-> Output : - test.csv : Include data, true value, predicted value, true good/bad product, predicted good/bad product
+>> `model_eval=torch.load(model.pt)`  
+ 
+> Output : 
+- test.csv : Include data, true value, predicted value, true good/bad product, predicted good/bad product
 - Accuracy : IncludeAccuracy Rate, Yield Prediction Accuracy Rate, Defect Prediction Accuracy Rate  
 - X_test_correct & X_test_wrong : 預測正確/錯誤的testing data  
 - scatterplots  
