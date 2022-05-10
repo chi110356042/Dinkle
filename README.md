@@ -10,8 +10,6 @@ Complete model that can be directly loaded for use.
 
 - set α, β = 0.1
 
-> Test:
-
 `prediction = model(test_data, alpha=0.1, beta=0.1)`
 
 ### model_code
@@ -46,7 +44,7 @@ The complete prediction process, including data pre-processing, model training, 
 **3.testing**
 > Input:Testing data  
 >> - If you didn't run testing right after training model, then you need to load model  
->> 'model_eval=torch.load(model.pt)'  
+>> `model_eval=torch.load(model.pt)`   
 > Output:- test.csv : Include data, true value, predicted value, true good/bad product, predicted good/bad product
 - Accuracy : IncludeAccuracy Rate, Yield Prediction Accuracy Rate, Defect Prediction Accuracy Rate  
 - X_test_correct & X_test_wrong : 預測正確/錯誤的testing data  
