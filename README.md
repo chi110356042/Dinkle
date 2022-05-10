@@ -52,7 +52,7 @@ The complete prediction process, including data pre-processing, model training, 
  
 > Output : 
 > - test.csv : Include data, true value, predicted value, true good/bad product, predicted good/bad product
-> - Accuracy : IncludeAccuracy Rate, Yield Prediction Accuracy Rate, Defect Prediction Accuracy Rate  
+> - Accuracy : Include accuracy rate, yield accuracy rate, defective accuracy rate  
 > - X_test_correct & X_test_wrong : Predict correct/incorrect testing data 
 > - Scatterplots  
 > - Confusion matrices  
