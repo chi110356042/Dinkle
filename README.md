@@ -10,6 +10,8 @@ Complete model that can be directly loaded for use.
 
 - set α, β = 0.1
 
+`Format one word or one line`
+
 ### model_code
 
 Complete model development program.
