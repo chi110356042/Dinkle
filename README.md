@@ -37,12 +37,12 @@ The complete prediction process, including data pre-processing, model training, 
 >>>_Create TensorDataset by DataLoader_   
 
 >Output :
-> - train_loader
-> - validation_loader
-> - test_loader  
+> - training data
+> - validation data
+> - testing data  
 
 **2.Model training**
->Input : Training data  
+>Input : Training data & validation data   
 >Output : model.pt   
 
 **3.Testing**
