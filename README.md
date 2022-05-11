@@ -16,9 +16,9 @@ Complete model that can be directly loaded for use.
 
 Complete model development program.
 
-- DataonlyNet is a model that does not contain a RULE
+- **DataonlyNet** is a model that does not contain a RULE
 
-- Net is a model that contain a RULE
+- **Net** is a model that contain a RULE
 
 ### model_train_and_test
 
