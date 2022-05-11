@@ -24,7 +24,7 @@ Complete model development program.
 
 The complete prediction process, including data pre-processing, model training, testing, and output of scatterplots & confusion matrices. 
 
-*>*1.Data pre-processing**
+>**1.Data pre-processing**
 >Input : Stampers & Transient Testers Data
 >>**Get Data**  
 >>    X_train: training data (data_num*rate, sequence_num, feature_num)  
