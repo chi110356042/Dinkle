@@ -54,6 +54,8 @@ The complete prediction process, including data pre-processing, model training, 
 > Input : Testing data  
 >> - If you didn't run testing right after training model, then you need to load model first  
 >> `model_eval = torch.load(model.pt)`  
+>> - You can get different results by changing different combination of α & β  
+>> `output = model_eval(Testing data, alpha=alpha, beta=beta)`  
  
 > Output : 
 > - test.csv : Include data, true value, predicted value, true good / bad product, predicted good / bad product
