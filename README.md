@@ -44,7 +44,7 @@ The complete prediction process, including data pre-processing, model training, 
 **2.Model training**
 >Input : Training data & validation data   
 >> - You can decide whether to include α or β in the training  
->>  if α & β: `alpha = alpha_distribution.sample().item(), beta = beta_distribution.sample().item()`  
+>>> if α & β: `alpha = alpha_distribution.sample().item(), beta = beta_distribution.sample().item()`  
 >>> if only α :`alpha = alpha_distribution.sample().item(), beta = 0`  
 >>> if only β :`alpha = 0, beta = beta_distribution.sample().item()` 
  
