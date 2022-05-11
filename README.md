@@ -24,7 +24,7 @@ Complete model development program.
 
 The complete prediction process, including data pre-processing, model training, testing, and output of scatterplots & confusion matrices. 
 
-**1.Data pre-processing**
+*>*1.Data pre-processing**
 >Input : Stampers & Transient Testers Data
 >>**Get Data**  
 >>    X_train: training data (data_num*rate, sequence_num, feature_num)  
@@ -43,6 +43,11 @@ The complete prediction process, including data pre-processing, model training, 
 
 **2.Model training**
 >Input : Training data & validation data   
+>> - You can decide whether to include α or β in the training  
+>>  if α & β: `alpha = alpha_distribution.sample().item(), beta = beta_distribution.sample().item()`  
+>>> if only α :`alpha = alpha_distribution.sample().item(), beta = 0`  
+>>> if only β :`alpha = 0, beta = beta_distribution.sample().item()` 
+ 
 >Output : model.pt   
 
 **3.Testing**
@@ -51,9 +56,9 @@ The complete prediction process, including data pre-processing, model training, 
 >> `model_eval=torch.load(model.pt)`  
  
 > Output : 
-> - test.csv : Include data, true value, predicted value, true good/bad product, predicted good/bad product
+> - test.csv : Include data, true value, predicted value, true good / bad product, predicted good / bad product
 > - Accuracy : Include accuracy rate, yield accuracy rate, defective accuracy rate  
-> - X_test_correct & X_test_wrong : Predict correct/incorrect testing data 
+> - X_test_correct & X_test_wrong : Predict correct / incorrect testing data 
 > - Scatterplots : Present the true and predicted value distribution of each detail  
 > - Confusion matrices  
 
